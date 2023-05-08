@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    max-height: 1000px;
+    height: 800px;
+    width: 800px;
+    margin-top: 10px;
+    background-color: #8a81f3;
+}
+
+.divForm{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    max-height: 200px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    opacity: 0.95;
+
+}
+
+.block:hover{
+    background: linear-gradient(to bottom, #fce38a, #f38181);
+    opacity: 1;
+}
+
+.blockText {
+    width: 180px;
+    height: 180px;
+    font-weight: bold;
+    font-size: 110px;
+    text-align: center;
+    background: white;
+    opacity: 1;
+}
+
+
